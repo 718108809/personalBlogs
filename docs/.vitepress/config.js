@@ -8,11 +8,11 @@ module.exports = {
     base: '/jiang-blogs/',
     head: [
         // 添加图标
-        ['link', { rel: 'icon', href: '/logo.png' }]
+        ['link', { rel: 'icon', href: 'logo.png' }]
     ],
     themeConfig: {
         // 网站 logo
-        logo: '/logo.png',
+        logo: 'logo.png',
         // 网站标题
         siteTitle: '小江的网站',
         // 启动页面丝滑滚动
