@@ -12,7 +12,9 @@ jobs:
       - name: Checkout
       - uses: actions/checkout@v2
         with:
+          submodules: 'recursive'
           ref: gh-pages
+          createBranch: true
       - name: Install Dependencies
       - run: npm install
  
