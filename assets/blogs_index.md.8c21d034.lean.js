@@ -1,1 +1,0 @@
-import{_ as a,c as e,o,N as t}from"./chunks/framework.11e50b89.js";const q=JSON.parse('{"title":"跟牛老师一起学WebGIS","description":"","frontmatter":{},"headers":[],"relativePath":"blogs/index.md"}'),r={name:"blogs/index.md"},i=t("",13),l=[i];function s(h,n,d,c,_,b){return o(),e("div",null,l)}const m=a(r,[["render",s]]);export{q as __pageData,m as default};
