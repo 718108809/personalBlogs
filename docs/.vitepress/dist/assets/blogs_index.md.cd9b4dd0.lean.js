@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,N as o}from"./chunks/framework.255dec5c.js";const m=JSON.parse('{"title":"小江的个人博客","description":"","frontmatter":{},"headers":[],"relativePath":"blogs/index.md"}'),r={name:"blogs/index.md"},s=o("",5),i=[s];function c(n,l,d,_,h,p){return t(),e("div",null,i)}const b=a(r,[["render",c]]);export{m as __pageData,b as default};
