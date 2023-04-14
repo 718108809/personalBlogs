@@ -5,7 +5,7 @@ module.exports = {
     description: '个人博客网',
     lang: 'zh-CN',
     // github pages 配置
-    base: '/jiang-blogs/',
+    base: '/personalBlogs/',
     head: [
         // 添加图标
         ['link', { rel: 'icon', href: 'logo.png' }]
