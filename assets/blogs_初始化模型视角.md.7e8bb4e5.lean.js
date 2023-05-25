@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,N as l}from"./chunks/framework.255dec5c.js";const i=JSON.parse('{"title":"初始化模型视角","description":"","frontmatter":{},"headers":[],"relativePath":"blogs/初始化模型视角.md"}'),o={name:"blogs/初始化模型视角.md"},p=l("",3),t=[p];function e(c,r,y,F,D,C){return a(),n("div",null,t)}const d=s(o,[["render",e]]);export{i as __pageData,d as default};

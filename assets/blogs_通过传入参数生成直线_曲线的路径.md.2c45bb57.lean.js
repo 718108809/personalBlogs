@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as l,N as a}from"./chunks/framework.255dec5c.js";const C=JSON.parse('{"title":"通过传入参数生成直线+曲线的路径","description":"","frontmatter":{},"headers":[],"relativePath":"blogs/通过传入参数生成直线+曲线的路径.md"}'),o={name:"blogs/通过传入参数生成直线+曲线的路径.md"},p=a("",4),t=[p];function e(c,y,r,F,i,D){return l(),n("div",null,t)}const f=s(o,[["render",e]]);export{C as __pageData,f as default};
