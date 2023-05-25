@@ -48,6 +48,14 @@ module.exports = {
                     collapsible: true,
                     items: [
                         {text: '概述', link: '/blogs/'},
+                        {text: '递归查询name', link: '/blogs/递归查询name'},
+                        {text: '查询场景中模型数据', link: '/blogs/查询场景中模型数据'},
+                        {text: '初始化模型视角', link: '/blogs/初始化模型视角'},
+                        {text: '模型点击高亮效果', link: '/blogs/模型点击高亮效果'},
+                        {text: '模型定位聚焦', link: '/blogs/模型定位聚焦'},
+                        {text: '通过传入参数生成直线', link: '/blogs/通过传入参数生成直线+曲线的路径'},
+                        {text: '通过three.path生成流动的箭头实现光路效果', link: '/blogs/通过three.path生成流动的箭头实现光路效果'},
+                        {text: '异步并发生成标签', link: '/blogs/异步并发生成标签'},
                         // {text: '所有面试题', link: '/blogs/所有面试题'},
                         {text: '更多', link: '/blogs/more'},
                     ]
