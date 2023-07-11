@@ -56,6 +56,8 @@ module.exports = {
                         {text: '通过传入参数生成直线', link: '/blogs/通过传入参数生成直线+曲线的路径'},
                         {text: '通过three.path生成流动的箭头实现光路效果', link: '/blogs/通过three.path生成流动的箭头实现光路效果'},
                         {text: '异步并发生成标签', link: '/blogs/异步并发生成标签'},
+                        {text: 'git协同开发', link: '/blogs/git协同开发'},
+                        {text: '开发规范', link: '/blogs/开发规范初版'},
                         // {text: '所有面试题', link: '/blogs/所有面试题'},
                         {text: '更多', link: '/blogs/more'},
                     ]
