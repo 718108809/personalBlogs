@@ -27,8 +27,6 @@ git branch develop # 基于 master 分支创建 develop 分支，开发分支，
 Settings -> Manage access -> 输入小伙伴 GitHub 账号并确认 -> 小伙伴会收到通知，点击确认（如出现404，把这个地址粘贴到已登录 GitHub 的浏览器）
 ```
 
-![image-20210706112405014](06-协同开发.assets/image-20210706112405014.png)
-
 3\. 推送所有分支到远程仓库
 
 ```bash
@@ -57,7 +55,7 @@ git checkout release # 如果说本地有，就切换到本地的 release，如�
 git checkout develop
 ```
 
-1\. 创建`任务分支`
+1\. 创建 `任务分支`
 
 ```bash
 # 切换到 develop 分支
@@ -122,7 +120,7 @@ git pull origin develop
 git merge feature/questionAdd
 ```
 
-<font color=e32d40>**注意：checkout 切换分支之前要保证当前分支是干净的！**</font>
+`<font color=e32d40>`**注意：checkout 切换分支之前要保证当前分支是干净的！**`</font>`
 
 ## 测试
 
