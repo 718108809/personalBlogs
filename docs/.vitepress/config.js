@@ -58,6 +58,7 @@ module.exports = {
                         {text: '异步并发生成标签', link: '/blogs/异步并发生成标签'},
                         {text: 'git协同开发', link: '/blogs/git协同开发'},
                         {text: '开发规范', link: '/blogs/开发规范初版'},
+                        {text: 'Map对象详解', link: '/blogs/Map对象详解'},
                         // {text: '所有面试题', link: '/blogs/所有面试题'},
                         {text: '更多', link: '/blogs/more'},
                     ]
