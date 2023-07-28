@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,N as l}from"./chunks/framework.255dec5c.js";const F=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blogs/NProgress是什么.md"}'),p={name:"blogs/NProgress是什么.md"},o=l("",35),e=[o];function t(c,r,i,y,C,D){return a(),n("div",null,e)}const g=s(p,[["render",t]]);export{F as __pageData,g as default};
