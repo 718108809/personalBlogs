@@ -59,6 +59,7 @@ module.exports = {
                         {text: 'git协同开发', link: '/blogs/git协同开发'},
                         {text: '开发规范', link: '/blogs/开发规范初版'},
                         {text: 'Map对象详解', link: '/blogs/Map对象详解'},
+                        {text: 'Vue中的v-slot详解，作用域插槽和具名插槽', link: '/blogs/Vue中的v-slot详解，作用域插槽和具名插槽'},
                         // {text: '所有面试题', link: '/blogs/所有面试题'},
                         {text: '更多', link: '/blogs/more'},
                     ]
