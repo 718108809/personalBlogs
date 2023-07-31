@@ -61,6 +61,8 @@ module.exports = {
                         {text: 'Map对象详解', link: '/blogs/Map对象详解'},
                         {text: 'Vue中的v-slot详解，作用域插槽和具名插槽', link: '/blogs/Vue中的v-slot详解，作用域插槽和具名插槽'},
                         {text: 'NProgress是什么', link: '/blogs/NProgress是什么'},
+                        {text: 'Vue组件中name的三大作用', link: '/blogs/Vue组件中name的三大作用'},
+                        {text: '使用 vue-router，页面加载完成后，$route 的值不正确', link: '/blogs/使用 vue-router，页面加载完成后，$route 的值不正确'},
                         // {text: '所有面试题', link: '/blogs/所有面试题'},
                         {text: '更多', link: '/blogs/more'},
                     ]
