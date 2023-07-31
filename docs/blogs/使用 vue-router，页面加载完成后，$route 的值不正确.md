@@ -19,7 +19,8 @@ mounted(){
 ## 2 找到问题
 
 在 mounted 中打印 `$route`：
-![在这里插入图片描述](../public/blogsImage/20200119112622658.png)
+
+![1690774163149](image/使用vue-router，页面加载完成后，$route的值不正确/1690774163149.png)
 可以看到，所有的值都不对。最明显的是 `path` 和 `fullPath` ，明明应该有值，但现在只是一个 `"/"` 。
 
 我猜测：在 mounted 中，router 的初始化还没有完成，所以取到的是一个初始默认值。
@@ -36,7 +37,9 @@ mounted(){
 }
 ```
 
-延时 1000ms ，此时router 的值是对的了：![在这里插入图片描述](../public/blogsImage/20200119113930727.png)问题确定了：
+延时 1000ms ，此时router 的值是对的了：
+
+![1690774215701](image/使用vue-router，页面加载完成后，$route的值不正确/1690774215701.png)
 
 - **vue-router 初始化是需要一段时间的，在完成之前，取值只能拿到初始的默认值。**
 - **在 mounted 中 router 初始化可能还没有完成。**
@@ -93,7 +96,7 @@ mounted(){
 ```
 
 会弹出：
-![在这里插入图片描述](../public/blogsImage/20200119120959565.png)
+![1690774245601](image/使用vue-router，页面加载完成后，$route的值不正确/1690774245601.png)
 
 如果延迟一会儿，再绑定事件呢：
 
@@ -130,18 +133,22 @@ router.onReady(cb);
 12345
 ```
 
-去看看 [源码](https://github.com/vuejs/vue-router/blob/dev/src/history/base.js) ，onReady 到底是做了什么：![在这里插入图片描述](../public/blogsImage/20200120092136926.png)onReady：
+去看看 [源码](https://github.com/vuejs/vue-router/blob/dev/src/history/base.js) ，onReady 到底是做了什么：
+
+![1690774258771](image/使用vue-router，页面加载完成后，$route的值不正确/1690774258771.png)
 
 - 如果路由已经 ready 了，就立即执行 `cb`。
 - 如果路由还没有 ready，就把 `cb` 放到 readyCbs 中。
 
 接着看源码，发现：
-![在这里插入图片描述](../public/blogsImage/20200120100527714.png)
+![1690774274662](image/使用vue-router，页面加载完成后，$route的值不正确/1690774274662.png)
 上面这段代码是在初始化完成后立即调用的：修改 ready 为 true ，并执行 readyCbs 中的 cb 。
 
 所以，onReady不会错过，放心的用！
 
-注意:在vue-router@4中
+## 注意:
+
+在vue-router@4中
 
 请将 `onReady` 改为 `isReady`
 
