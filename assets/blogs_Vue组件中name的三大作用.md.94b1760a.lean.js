@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,N as l}from"./chunks/framework.255dec5c.js";const A=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blogs/Vue组件中name的三大作用.md"}'),p={name:"blogs/Vue组件中name的三大作用.md"},o=l("",11),e=[o];function t(c,D,r,F,y,C){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{A as __pageData,d as default};
