@@ -64,6 +64,11 @@ module.exports = {
                         {text: 'Vue组件中name的三大作用', link: '/blogs/Vue组件中name的三大作用'},
                         {text: '使用 vue-router，页面加载完成后，$route 的值不正确', link: '/blogs/使用 vue-router，页面加载完成后，$route 的值不正确'},
                         {text: 'new Set()的基础用法(ES6)', link: '/blogs/new Set()的基础用法(ES6)'},
+                        {text: 'JS中reduce的用法', link: '/blogs/JS中reduce的用法'},
+                        {text: 'Promise.all', link: '/blogs/Promise.all'},
+                        {text: 'JavaScript Class类详解', link: '/blogs/JavaScript Class类详解'},
+                        {text: '有了for循环 为什么还要forEach？', link: '/blogs/有了for循环 为什么还要forEach？'},
+                        {text: 'tween.js 中文使用指南', link: '/blogs/tween.js 中文使用指南'},
                         // {text: '所有面试题', link: '/blogs/所有面试题'},
                         {text: '更多', link: '/blogs/more'},
                     ]
