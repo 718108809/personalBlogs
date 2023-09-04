@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,N as l}from"./chunks/framework.255dec5c.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blogs/JavaScript Class类详解.md"}'),p={name:"blogs/JavaScript Class类详解.md"},e=l("",85),o=[e];function t(c,r,C,i,A,y){return a(),n("div",null,o)}const u=s(p,[["render",t]]);export{d as __pageData,u as default};
