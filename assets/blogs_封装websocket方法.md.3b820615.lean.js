@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,N as l}from"./chunks/framework.255dec5c.js";const C=JSON.parse('{"title":"封装websocket方法","description":"","frontmatter":{},"headers":[],"relativePath":"blogs/封装websocket方法.md"}'),p={name:"blogs/封装websocket方法.md"},o=l("",7),t=[o];function e(c,r,y,F,D,i){return a(),n("div",null,t)}const f=s(p,[["render",e]]);export{C as __pageData,f as default};
