@@ -69,6 +69,9 @@ module.exports = {
                         {text: 'JavaScript Class类详解', link: '/blogs/JavaScript Class类详解'},
                         {text: '有了for循环 为什么还要forEach？', link: '/blogs/有了for循环 为什么还要forEach？'},
                         {text: 'tween.js 中文使用指南', link: '/blogs/tween.js 中文使用指南'},
+                        {text: '大屏适配方案汇总', link: '/blogs/大屏适配方案汇总'},
+                        {text: '创建文本标签', link: '/blogs/创建文本标签'},
+                        {text: '封装websocket方法', link: '/blogs/封装websocket方法'},
                         // {text: '所有面试题', link: '/blogs/所有面试题'},
                         {text: '更多', link: '/blogs/more'},
                     ]
