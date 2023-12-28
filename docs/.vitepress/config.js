@@ -72,6 +72,9 @@ module.exports = {
                         {text: '大屏适配方案汇总', link: '/blogs/大屏适配方案汇总'},
                         {text: '创建文本标签', link: '/blogs/创建文本标签'},
                         {text: '封装websocket方法', link: '/blogs/封装websocket方法'},
+                        {text: '前端异步(async)解决方案(所有方案)', link: '/blogs/前端异步(async)解决方案(所有方案)'},
+                        {text: '关于three.js渲染器THREE.WebGLRenderer()参数的介绍和使用', link: '/blogs/关于three.js渲染器THREE.WebGLRenderer()参数的介绍和使用'},
+                        {text: 'threejs实现简单全景看房demo😜', link: '/blogs/threejs实现简单全景看房demo😜'},
                         // {text: '所有面试题', link: '/blogs/所有面试题'},
                         {text: '更多', link: '/blogs/more'},
                     ]
