@@ -75,6 +75,8 @@ module.exports = {
                         {text: '前端异步(async)解决方案(所有方案)', link: '/blogs/前端异步(async)解决方案(所有方案)'},
                         {text: '关于three.js渲染器THREE.WebGLRenderer()参数的介绍和使用', link: '/blogs/关于three.js渲染器THREE.WebGLRenderer()参数的介绍和使用'},
                         {text: 'threejs实现简单全景看房demo😜', link: '/blogs/threejs实现简单全景看房demo😜'},
+                        {text: 'ES6 Module 模块', link: '/blogs/ES6 Module 模块'},
+                        {text: '浏览器的垃圾回收机制', link: '/blogs/浏览器的垃圾回收机制'},
                         // {text: '所有面试题', link: '/blogs/所有面试题'},
                         {text: '更多', link: '/blogs/more'},
                     ]
