@@ -77,6 +77,8 @@ module.exports = {
                         {text: 'threejs实现简单全景看房demo😜', link: '/blogs/threejs实现简单全景看房demo😜'},
                         {text: 'ES6 Module 模块', link: '/blogs/ES6 Module 模块'},
                         {text: '浏览器的垃圾回收机制', link: '/blogs/浏览器的垃圾回收机制'},
+                        {text: 'Three.js 性能优化和实践建议', link: '/blogs/Three.js 性能优化和实践建议'},
+                        {text: 'Threejs logarithmicDepthBuffer 开启后 ShaderMaterial 会被模型遮挡问题', link: '/blogs/Threejs logarithmicDepthBuffer 开启后 ShaderMaterial 会被模型遮挡问题'},
                         // {text: '所有面试题', link: '/blogs/所有面试题'},
                         {text: '更多', link: '/blogs/more'},
                     ]
