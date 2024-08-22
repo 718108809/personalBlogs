@@ -79,6 +79,13 @@ module.exports = {
                         {text: '浏览器的垃圾回收机制', link: '/blogs/浏览器的垃圾回收机制'},
                         {text: 'Three.js 性能优化和实践建议', link: '/blogs/Three.js 性能优化和实践建议'},
                         {text: 'Threejs logarithmicDepthBuffer 开启后 ShaderMaterial 会被模型遮挡问题', link: '/blogs/Threejs logarithmicDepthBuffer 开启后 ShaderMaterial 会被模型遮挡问题'},
+                        {text: 'threejs电子围栏效果', link: '/blogs/threejs电子围栏效果'},
+                        {text: 'threejs聚光灯效果', link: '/blogs/threejs聚光灯效果'},
+                        {text: 'threejs雷达扫描效果', link: '/blogs/threejs雷达扫描效果'},
+                        {text: 'threejs动态飞线效果', link: '/blogs/threejs动态飞线效果'},
+                        {text: 'threejs信号波动效果', link: '/blogs/threejs信号波动效果'},
+                        {text: 'Three.js 场景清理与资源释放', link: '/blogs/Three.js 场景清理与资源释放'},
+                        {text: 'Three.js中实现垂直排列文字效果', link: '/blogs/Three.js中实现垂直排列文字效果'},
                         // {text: '所有面试题', link: '/blogs/所有面试题'},
                         {text: '更多', link: '/blogs/more'},
                     ]
