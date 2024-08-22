@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,N as l}from"./chunks/framework.255dec5c.js";const C=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blogs/Three.js中实现垂直排列文字效果.md"}'),o={name:"blogs/Three.js中实现垂直排列文字效果.md"},p=l("",15),t=[p];function e(c,r,y,F,D,i){return a(),n("div",null,t)}const f=s(o,[["render",e]]);export{C as __pageData,f as default};
