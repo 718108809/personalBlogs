@@ -69,6 +69,7 @@ module.exports = {
                         {text: 'JavaScript Class类详解', link: '/blogs/JavaScript Class类详解'},
                         {text: '有了for循环 为什么还要forEach？', link: '/blogs/有了for循环 为什么还要forEach？'},
                         {text: 'tween.js 中文使用指南', link: '/blogs/tween.js 中文使用指南'},
+                        {text: 'Tween.js 基本使用', link: '/blogs/Tween.js 基本使用'},
                         {text: '大屏适配方案汇总', link: '/blogs/大屏适配方案汇总'},
                         {text: '创建文本标签', link: '/blogs/创建文本标签'},
                         {text: '封装websocket方法', link: '/blogs/封装websocket方法'},
@@ -86,6 +87,10 @@ module.exports = {
                         {text: 'threejs信号波动效果', link: '/blogs/threejs信号波动效果'},
                         {text: 'Three.js 场景清理与资源释放', link: '/blogs/Three.js 场景清理与资源释放'},
                         {text: 'Three.js中实现垂直排列文字效果', link: '/blogs/Three.js中实现垂直排列文字效果'},
+                        {text: 'path.module.js 使用文档', link: '/blogs/path.module.js 使用文档'},
+                        {text: 'threejs ModelLoader使用文档', link: '/blogs/threejs ModelLoader使用文档'},
+                        {text: 'threejs 材质', link: '/blogs/threejs 材质'},
+                        {text: 'threejs 几何体', link: '/blogs/threejs 几何体'},
                         // {text: '所有面试题', link: '/blogs/所有面试题'},
                         {text: '更多', link: '/blogs/more'},
                     ]
