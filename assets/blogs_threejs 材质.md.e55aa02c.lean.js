@@ -1,0 +1,1 @@
+import{_ as A,c as s,o as a,N as n}from"./chunks/framework.255dec5c.js";const B=JSON.parse('{"title":"threejs 材质","description":"","frontmatter":{},"headers":[],"relativePath":"blogs/threejs 材质.md"}'),l={name:"blogs/threejs 材质.md"},p=n("",668),e=[p];function t(o,c,i,r,C,f){return a(),s("div",null,e)}const D=A(l,[["render",t]]);export{B as __pageData,D as default};
