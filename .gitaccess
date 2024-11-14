@@ -1,0 +1,9 @@
+[gitweb]
+    owner = @admin group
+
+[git]
+    owner = @admin group
+
+[branch "master"]
+    owner = @admin group
+    deny = @all
