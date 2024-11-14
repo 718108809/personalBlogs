@@ -91,6 +91,8 @@ module.exports = {
                         {text: 'threejs ModelLoader使用文档', link: '/blogs/threejs ModelLoader使用文档'},
                         {text: 'threejs 材质', link: '/blogs/threejs 材质'},
                         {text: 'threejs 几何体', link: '/blogs/threejs 几何体'},
+                        {text: 'threejs 渲染上百万个三角很卡 该如何优化呢', link: '/blogs/threejs 渲染上百万个三角很卡 该如何优化呢'},
+                        {text: '在windows上docker运行流程文档', link: '/blogs/在windows上docker运行流程文档'},
                         // {text: '所有面试题', link: '/blogs/所有面试题'},
                         {text: '更多', link: '/blogs/more'},
                     ]
